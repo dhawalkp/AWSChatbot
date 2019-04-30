@@ -9,5 +9,5 @@ The demo includes code for below components -
 
 # High Level Architecture
 
-![High Level Architecture of Chatbot on AWS](https://github.com/dhawalkp/AWSChatbot/Architecture_ChatBot_AWS.png)
+![High Level Architecture of Chatbot on AWS](https://github.com/dhawalkp/AWSChatbot/blob/master/Architecture_ChatBot_AWS.png)
 
