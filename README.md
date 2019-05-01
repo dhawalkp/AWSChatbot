@@ -20,7 +20,8 @@ The demo includes code for below components -
  2. Import the Fulfilment Lambda Function
     * Import the lambda - https://github.com/dhawalkp/AWSChatbot/blob/master/AdPromo-Handler-03c6ec4d-9c4a-4c1b-8d7e-671e92d96f00.zip from your AWS Lambda Console. 
     *   Change the Lambda Code as below based on your Source Phone Number. This number is the end-user's can be reached phone number. The Lambda fn will initiate an Outbound Voice Call to Sample Call Center Toll Free number created by AWS Connect Service. Change the "number" attribute below -
-        Markup :  `code()`
+        `code()`
+            
                 var requestForOutBoundCall = {
                     "name": "Octank Call Center Toll Free ",
                     "number": "+18888888888",
@@ -31,7 +32,8 @@ The demo includes code for below components -
     * Get the ARN of this lambda 
   4. Configure the Fulfillment Lambda to call Outbound Voice call Lambda
     * Change the FunctionName in the below code of Fulfillment Lambda with the ARN of Outbound Voice Call Lambda that you imoported in the previous step
-        Markup : `Code()`
+        `code()`
+         
             var responseForOutBoundCall = await lambda.invoke({
                     FunctionName: 'arn:aws:lambda:us-east-1:414210492846:function:AdPromo-Call-Outbound',
                     Payload: JSON.stringify(requestForOutBoundCall), // pass params,
