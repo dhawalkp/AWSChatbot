@@ -28,9 +28,12 @@ The demo includes code for below components -
                     "day": "Friday"
                 };
   3. Import the Lambda Function to make Outbound Voice Call for Agent Hand-off Intent
+  
     * Import the lambda - https://github.com/dhawalkp/AWSChatbot/blob/master/AdPromo-Call-Outbound-2b947465-6dbe-479c-99ff-49dcc095a8bc.zip
     * Get the ARN of this lambda 
+    
   4. Configure the Fulfillment Lambda to call Outbound Voice call Lambda
+  
     * Change the FunctionName in the below code of Fulfillment Lambda with the ARN of Outbound Voice Call Lambda that you imoported in the previous step
         `code()`
          
