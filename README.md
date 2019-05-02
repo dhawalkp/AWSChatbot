@@ -1,3 +1,6 @@
+Disclaimer: This code must not be used for production use as is. This sample is developed only to educate the users in using some of the features of the AWS in developing a chatbot. This is my personal github location and is maintained solely by me.
+This is not the official AWS Open source repository.
+
 # Developing a Chatbot in AWS
 This is a demo Chatbot in AWS that can be used to quickly get a high level understanding of the Implementation aspects of it. The Chatbot is integrated with Slack Channel and AWS Connect. The End User can interact with the chatbot via Web (Slack Channel) or Voice Channel (via AWS Connect). The Chatbot can handle 2 intents currently - Promotions and Agent Handoff.  
 
